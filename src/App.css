@@ -1,0 +1,372 @@
+/* App.css */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #FFFFFF; /* Color del texto */
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif; /* Cambia la fuente si es necesario */
+}
+h1 {
+  margin-bottom: 40px; /* Incrementa este valor para más espacio */
+}
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #003366; /* Un azul más oscuro */
+  transform: scale(1.05); /* Ligeramente más grande */
+}
+/* Estilos para todos los botones */
+button {
+  background-color: #007BFF; /* Azul claro */
+  color: #FFFFFF; /* Texto blanco */
+  border: none; /* Sin bordes */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Tamaño del botón */
+  font-size: 16px; /* Tamaño del texto */
+  cursor: pointer; /* Cambia el cursor a "pointer" */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animación */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Cambia el estilo al pasar el cursor */
+button:hover {
+  background-color: #0056b3; /* Azul más oscuro */
+  transform: scale(1.05); /* Agranda ligeramente el botón */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más fuerte */
+}
+
+/* Botón secundario (opcional) */
+button.secondary {
+  background-color: #6c757d; /* Gris oscuro */
+}
+
+button.secondary:hover {
+  background-color: #5a6268; /* Gris más oscuro */
+}
+
+.hymn-lyrics {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.hymn-lyrics strong {
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 10px;
+  color: #2c3e50;
+}
+.hymn-details {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hymn-lyrics {
+  margin: 20px 0;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.stanza-number {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn-favorite {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-back {
+  background-color: #6c757d;
+  color: white;
+}
+.stanza-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.hymn-details {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-back {
+  background-color: #f44336; /* Rojo suave */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-back:hover {
+  background-color: #d32f2f; /* Rojo más oscuro */
+}
+
+.audio-player {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.hymn-lyrics {
+  text-align: left;
+  white-space: pre-wrap; /* Mantener saltos de línea del texto */
+  margin-top: 20px;
+}
+
+.actions {
+  margin-top: 15px;
+}
+
+.btn {
+  margin: 0 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-favorite {
+  background-color: #2196F3; /* Azul */
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-favorite:hover {
+  background-color: #1976D2; /* Azul más oscuro */
+}
+.hymn-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn-back {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #5a6268;
+}
+
+.audio-player {
+  flex-grow: 1;
+}
+
+.hymn-details {
+  margin: 20px auto;
+  max-width: 500px; /* Ancho máximo para centrar contenido */
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.hymn-header {
+  display: flex;
+  justify-content: space-between; /* Separar botón y audio */
+  align-items: center;
+  margin-bottom: 20px; /* Espacio entre header y contenido */
+}
+
+.btn-back {
+  background-color: #007BFF; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+audio {
+  width: 100%;
+  margin: 10px 0; /* Margen entre audio y otros elementos */
+}
+
+.hymn-lyrics {
+  font-size: 16px; /* Fuente más grande */
+  line-height: 1.6; /* Mejor espaciado entre líneas */
+  color: #333; /* Texto oscuro */
+  text-align: justify; /* Justificar texto */
+  margin-top: 10px; /* Margen superior */
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Separar acciones del texto */
+}
+/* Estilo global */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f7; /* Fondo claro */
+  color: #333; /* Texto oscuro para buena legibilidad */
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #2a5d84; /* Azul profesional */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #2a5d84;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1d3e63; /* Color de hover más oscuro */
+}
+
+/* Estilo para los himnos */
+.hymn-title {
+  font-size: 2.5rem;
+  color: #1d3e63;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.hymn-details {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hymn-meta {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hymn-meta strong {
+  color: #2a5d84;
+}
+
+.hymn-lyrics {
+  text-align: left;
+  white-space: pre-wrap; /* Mantener saltos de línea */
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.audio-controls {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.actions {
+  margin-top: 20px;
+}
+/* Estilo para el contenedor de los íconos en la parte inferior */
+.bottom-menu {
+  display: flex;
+  justify-content: space-around; /* Alinea los íconos de manera uniforme */
+  position: fixed;
+  bottom: 20px; /* Espaciado desde la parte inferior */
+  width: 100%;
+  z-index: 10;
+}
+
+.menu-item {
+  color: #e9f0f5; /* Color de los íconos */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #FF6347; /* Color de los íconos cuando el ratón pasa sobre ellos */
+}
+
+.menu-item svg {
+  cursor: pointer;
+  padding: 10px; /* Añadir un poco de espacio alrededor de los íconos */
+}

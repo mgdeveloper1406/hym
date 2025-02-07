@@ -1,0 +1,192 @@
+.hymn-details {
+    background-color: rgba(36, 120, 238, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hymn-lyrics {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-favorite {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-back {
+    background-color: #6c757d;
+    color: white;
+}
+.hymn-title {
+    color: #000; /* Cambia el color del título a negro (o lo que prefieras). */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.hymn-lyrics {
+    color: #000; /* Elimina cualquier color blanco del contenido de las letras */
+    background-color: transparent; /* Asegúrate de que el fondo sea limpio */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
+
+.hymn-details h2 {
+    display: block;
+    color: #000; /* Si hay un título escondido, asegúrate de que no sea blanco */
+    text-align: center;
+}
+
+h2.hidden-title {
+    display: none; /* Asegúrate de que títulos no deseados estén ocultos */
+}
+/* Estilos para el encabezado del himno */
+.hymn-header {
+    background-color: #f4f8fb;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Información del himno */
+.hymn-info {
+    margin-bottom: 20px;
+}
+
+.hymn-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.hymn-author, .hymn-ccli, .hymn-hymnal {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin: 5px 0;
+}
+
+.hymn-author strong, .hymn-ccli strong, .hymn-hymnal strong {
+    color: #34495e;
+}
+
+/* Estilo para el reproductor de audio */
+.audio-player {
+    margin-top: 15px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+/* Letra del himno */
+.hymn-lyrics {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #34495e;
+    white-space: pre-wrap; /* Mantener saltos de línea */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Botones */
+.btn {
+    padding: 12px 25px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn-back {
+    background-color: #2ecc71;
+    margin-bottom: 10px;
+}
+
+.btn-favorite {
+    background-color: #f39c12;
+}
+
+/* Estilo para los botones cuando son clickeados */
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Contenedor general */
+.hymn-details {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hymn-details {
+    padding: 20px;
+}
+
+.hymn-header {
+    margin-bottom: 10px;
+}
+
+.hymn-meta {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.hymn-lyrics {
+    margin-top: 0; /* Asegúrate de que no haya espacio extra arriba */
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+.hymn-details {
+    padding: 20px;
+}
+
+.hymn-meta {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.hymn-lyrics {
+    margin-top: 0; /* Asegúrate de que no haya espacio extra arriba */
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.actions {
+    margin-top: 20px;
+}
